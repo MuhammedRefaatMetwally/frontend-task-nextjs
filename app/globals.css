@@ -123,3 +123,15 @@
     @apply bg-background text-foreground;
   }
 }
+
+:root {
+  --font-poppins: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-poppins {
+  font-family: var(--font-poppins);
+}
