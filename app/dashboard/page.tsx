@@ -78,9 +78,7 @@ export default function DashboardPage() {
     const handleLogout = async () => {
         try {
             await authApi.logout();
-        } catch (error) {
-            // Ignore logout errors
-        }
+        } catch (error) {}
 
         localStorage.removeItem('token');
         localStorage.removeItem('user');
@@ -115,7 +113,6 @@ export default function DashboardPage() {
     return (
         <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50 p-4 md:p-6">
             <div className="max-w-6xl mx-auto">
-                {/* Header */}
                 <header className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-8 p-4 bg-white rounded-xl shadow-sm">
                     <div>
                         <h1 className="text-2xl md:text-3xl font-bold text-gray-900">Dashboard</h1>
@@ -142,9 +139,7 @@ export default function DashboardPage() {
                     </Alert>
                 )}
 
-                {/* Main Content */}
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-                    {/* User Profile Card */}
                     <Card className="lg:col-span-2">
                         <CardHeader>
                             <div className="flex items-center justify-between">
@@ -214,7 +209,6 @@ export default function DashboardPage() {
                         </CardContent>
                     </Card>
 
-                    {/* Welcome & Stats Card */}
                     <Card className="bg-gradient-to-br from-blue-50 to-indigo-50 border-blue-100">
                         <CardHeader>
                             <CardTitle className="text-blue-800">Welcome Message</CardTitle>
