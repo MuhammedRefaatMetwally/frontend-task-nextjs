@@ -1,6 +1,6 @@
 # TinyTales
 
-A front-end task  built with Next.js.
+A front-end task  built with Next.js with Auth features and Product Details Page.
 
 ## Installation
 
