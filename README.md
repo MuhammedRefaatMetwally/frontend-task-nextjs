@@ -1,6 +1,6 @@
 # TinyTales
 
-A children's books e-commerce platform built with Next.js.
+A front-end task  built with Next.js.
 
 ## Installation
 
