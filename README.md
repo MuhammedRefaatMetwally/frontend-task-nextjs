@@ -39,13 +39,6 @@ NEXT_PUBLIC_API_URL=your_api_url
 3. Add environment variables
 4. Deploy
 
-### Netlify
-1. Push code to GitHub
-2. Import project on [netlify.com](https://netlify.com)
-3. Set build command: `npm run build`
-4. Set publish directory: `.next`
-5. Deploy
-
 ## Tech Stack
 
 - Next.js
