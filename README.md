@@ -51,7 +51,3 @@ NEXT_PUBLIC_API_URL=your_api_url
 - Next.js
 - TypeScript
 - Tailwind CSS
-
-## License
-
-MIT
