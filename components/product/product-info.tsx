@@ -125,7 +125,7 @@ export function ProductInfo({
                                 }`}
                             >
                                 <div
-                                    className="w-8 h-8 sm:w-8 sm:h-8 lg:w-12 lg:h-12 rounded-full"
+                                    className="w-8 h-8 sm:w-8 sm:h-8 lg:w-10 lg:h-10 rounded-full"
                                     style={{ backgroundColor: color.value }}
                                 />
                             </div>
