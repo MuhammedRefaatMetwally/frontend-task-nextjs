@@ -64,7 +64,6 @@ export default function VerifyPage() {
                 }
             }
 
-            // Auto-submit when all fields are filled
             if (index === 5 && value && !newCode.includes('')) {
                 handleVerify(newCode.join(''));
             }
